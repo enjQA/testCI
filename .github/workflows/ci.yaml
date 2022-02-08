@@ -6,11 +6,11 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-    name: Checkout code
+    - name: Checkout code
     uses: actions/checkout@v2
 
-    name: Install packages
+    - name: Install packages
     run: npm i
-    
-    name: Runs ESlint
+
+    - name: Runs ESlint
     run: npm run lint
