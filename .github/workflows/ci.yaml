@@ -5,12 +5,12 @@ jobs:
     name: Lint code base
     runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout code
-    uses: actions/checkout@v2
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Install packages
-    run: npm i
+      - name: Install packages
+        run: npm i
 
-    - name: Runs ESlint
-    run: npm run lint
+      - name: Runs ESlint
+        run: npm run lint
