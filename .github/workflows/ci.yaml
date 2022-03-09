@@ -1,9 +1,9 @@
 name: CI
 on: [push]
 jobs:
-  eslint:
-    name: Lint code base
-    runs-on: macos-latest
+  test:
+    name: Test CI
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
