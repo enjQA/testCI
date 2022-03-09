@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "k6": "k6 run script.js"
   },
   "author": "DK",
   "license": "ISC",

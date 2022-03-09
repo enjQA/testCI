@@ -14,6 +14,9 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: Run k6 load tests
+        run: npm run k6
         
       - name: Runs ESlint
         run: npm run lint
